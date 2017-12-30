@@ -57,6 +57,8 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
                     return productList.size();
                 }
 
+
+
                 @Override
                 public boolean areItemsTheSame(int oldItemPosition, int newItemPosition) {
                     return mProductList.get(oldItemPosition).getId() ==
